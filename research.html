@@ -1,61 +1,65 @@
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="My projects" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jan Sulejmani</title>
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/solo.css" />
-  </head>
-  <body>
-    <div id="wrapper">
-      <div id="left" class="container">
-        <h1 id="jan-sulejmani">
-          <a href="index.html" style="text-decoration: none">Jan Sulejmani</a>
-        </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jan Sulejmani</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>JAN SULEJMANI</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="bookshelf.html">Bookshelf</a></li>
+    </ul>
+  </nav>
+</header>
 
-        <p><a href="projects.html">projects</a></p>
+<main>
+  <section id="research">
+    <h2>Research</h2>
+    <h3>1-Planar Storyplans</h3>
+    <p>
+      <strong>Abstract:</strong> The field of dynamic graph visualization has
+      received a lot of attention in recent years as new use cases for the
+      exploration of complex graphs have emerged. For example, the
+      representation of vast amounts of relational data as graphs have made
+      a visual analysis more challenging. Storyplans have been introduced as
+      a tool for representing such graphs in a sequential and understandable
+      manner. While planar storyplans as well as outerplanar and forest
+      storyplans have been studied, there has been no research that has gone
+      into the direction of more powerful storyplans such as 1-planar
+      storyplans. This thesis explores the construction of 1-planar
+      storyplans and delves into the specific graph classes that admit these
+      kinds of storyplans. We will extend the strict containment of graph
+      classes that admit storyplans established by Fiala, Firman, Liotta,
+      Wolff, and Zink (SOFSEM 2024) as we explore graphs that do admit
+      1-planar storyplans but fail to do so for planar storyplans as well as
+      graphs that do not admit 1-planar storyplans. Furthermore, we
+      generalize this graph containment for the graphs that admit p-planar
+      storyplans. We prove that the problem of deciding whether a given
+      graph admits a 1-planar storyplan is NP-hard and we present a
+      parameterized algorithm attempt with respect to the vertex cover
+      number. We conclude the thesis by stating the open problems in this
+      ield. These findings not only enhance our understanding of graph
+      representation through storyplans but also inspire further research.
+    </p>
+    <a
+            href="/jansulejmani.github.io/static/jan_sulejmani_1-planar_storyplans.pdf"
+            target="_blank"
+    >Download PDF</a
+    >
 
-        <p><a href="research.html">research</a></p>
+  </section>
+</main>
 
-        <p><a href="bookshelf.html">bookshelf</a></p>
-      </div>
-      <div id="right" class="container">
-        <h2 id="research">Research</h2>
-
-        <h3>1-Planar Storyplans</h3>
-        <p>
-          <strong>Abstract:</strong> The ﬁeld of dynamic graph visualization has
-          received a lot of attention in recent years as new use cases for the
-          exploration of complex graphs have emerged. For example, the
-          representation of vast amounts of relational data as graphs have made
-          a visual analysis more challenging. Storyplans have been introduced as
-          a tool for representing such graphs in a sequential and understandable
-          manner. While planar storyplans as well as outerplanar and forest
-          storyplans have been studied, there has been no research that has gone
-          into the direction of more powerful storyplans such as 1-planar
-          storyplans. This thesis explores the construction of 1-planar
-          storyplans and delves into the speciﬁc graph classes that admit these
-          kinds of storyplans. We will extend the strict containment of graph
-          classes that admit storyplans established by Fiala, Firman, Liotta,
-          Wolff, and Zink (SOFSEM 2024) as we explore graphs that do admit
-          1-planar storyplans but fail to do so for planar storyplans as well as
-          graphs that do not admit 1-planar storyplans. Furthermore, we
-          generalize this graph containment for the graphs that admit p-planar
-          storyplans. We prove that the problem of deciding whether a given
-          graph admits a 1-planar storyplan is NP-hard and we present a
-          parameterized algorithm attempt with respect to the vertex cover
-          number. We conclude the thesis by stating the open problems in this
-          ﬁeld. These ﬁndings not only enhance our understanding of graph
-          representation through storyplans but also inspire further research.
-        </p>
-        <a
-          href="/jansulejmani.github.io/static/jan_sulejmani_1-planar_storyplans.pdf"
-          target="_blank"
-          >Download PDF</a
-        >
-      </div>
-    </div>
-  </body>
+<footer>
+  <p>&copy; 2024 Jan Sulejmani</p>
+</footer>
+</body>
 </html>
